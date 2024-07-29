@@ -1,7 +1,6 @@
 # Capstone-Project for Professional Certificate in ML and AI
 
-# PROJECT TITLE
-Prediction of Breast Cancer Type
+# PROJECT TITLE: Prediction of Breast Cancer Type
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 This project focuses on improving the detection and classification of breast cancer tumours using advanced ML techniques. Breast cancer is the most common cancer among women, and early detection is crucial. By utilizing the Breast Cancer Wisconsin (Diagnostic) Dataset, three models were tested and the BEST ONE was used to accurately classify tumours as either malignant (cancerous) or benign (non-cancerous). Overall aim of this project was to enhance diagnostic accuracy, providing better outcomes for patients and to use technology to assist medical professionals in making more informed decisions, ultimately improving the quality of care and survival rates of cancer patients. 
