@@ -1,1 +1,60 @@
+# Data sheet from https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset/data
 
+## Motivation
+
+The data set used in this project is: Breast Cancer Wisconsin (Diagnostic) Data Set. The primary purpose of the Breast Cancer Wisconsin (Diagnostic) Data Set is to aid in the development and evaluation of machine learning algorithms 
+that can assist in the diagnosis of breast cancer. It is often used for: classification tasks (Predict whether a tumor is malignant or benign), medical research (Help researchers and healthcare professionals understand patterns and relationships between different features and breast cancer diagnosis), educational purposes (Provide a real-world example for teaching ML), benchmarking ML models. 
+The dataset was created as part of the research conducted by Dr. William H. Wolberg and his team at the University of Wisconsin-Madison.
+Research Team: Dr. William H. Wolberg, an oncologist, and his collaborators at the University of Wisconsin-Madison.
+Institution: University of Wisconsin-Madison.
+Original Source: The dataset was compiled using data obtained from digitized images of fine needle aspirate (FNA) of breast tumors, which is a common diagnostic procedure for breast cancer.
+Dataset Publication: The dataset has been available since the early 1990s and has been widely used and referenced in various academic papers and machine learning studies.
+
+## Composition
+
+Type of Instances: Each instance in the dataset represents a sample taken from a patient who has undergone a fine needle aspirate (FNA) of a breast tumor. 
+These samples are analyzed to derive features that characterize the cell nuclei in the breast mass.
+The dataset consists of numerical measurements related to cell characteristics derived from the digitized images of FNA samples. 
+Specifically, it does not contain direct images or patient documents but instead consists of numeric feature values extracted from medical imaging analysis.
+The dataset includes 32 columns, with one column being the diagnosis (target variable) and the remaining 31 columns being numeric features extracted from the FNA images. 
+These features describe properties of the cell nuclei, such as radius, texture, perimeter, area, smoothness, etc.
+The dataset does not contain any missing values.
+The dataset does not contain any direct identifiers or personal information that could lead to the identification of individual patients.
+
+## Collection process
+
+The dataset was acquired through a medical procedure known as fine needle aspiration (FNA), which is commonly used to extract samples from breast tumors.
+Specific details about the sampling strategy aren't explicitly documented, however from the dataset and related documentation we can assume that the dataset was likely compiled using non-probabilistic sampling.
+The dataset was collected over a period of time during which Dr. William H. Wolberg and his team were conducting research on breast cancer diagnostics at the University of Wisconsin-Madison. 
+
+## Preprocessing/cleaning/labelling
+
+The Breast Cancer Wisconsin (Diagnostic) Data Set underwent several preprocessing and cleaning steps before it was made publicly available.
+The dataset’s features were extracted using digital image analysis techniques. From these images, 30 distinct features were calculated for each sample, focusing on characteristics like cell radius, texture, perimeter, area, smoothness, compactness, concavity, symmetry, and fractal dimension.
+Initial preprocessing likely involved identifying and removing outliers to enhance data quality. 
+The dataset does not contain any missing values. This means any samples with incomplete data were either completed or removed to ensure all entries are fully populated.
+Each instance was labeled as Malignant (M) or Benign (B) based on histological examination and expert pathologist diagnosis. 
+
+
+## Uses
+
+This data set can be used by students in educational settings to teach students about machine learning algorithms, feature engineering, data preprocessing, and model evaluation.
+The dataset may not cover all demographics equally. It is crucial to understand the population from which the samples were collected. A lack of diverse representation could lead to biased models that may not generalize well to other populations.
+Risk: If a model developed using this dataset is applied in clinical settings without understanding its limitations, it may lead to biased medical decisions. Even though the dataset is anonymized, care must be taken not to re-identify individuals, especially if combined with other datasets.
+
+
+## Distribution
+
+The dataset is available on Kaggle. It is widely accessible to data scientists, researchers, and enthusiasts for various machine learning and data analysis tasks. 
+The dataset is also available on the UCI Machine Learning Repository, one of the most well-known sources for machine learning datasets.
+The dataset has been also used in numerous academic papers, research projects, and educational courses as a benchmark dataset for evaluating machine learning algorithms.
+
+This dataset is treated as being in the public domain, meaning it is freely available for use in academic research, educational purposes, and non-commercial applications.
+On platforms like Kaggle and UCI, there is typically no explicit licensing attached to this dataset, which implies open access with respect for academic and research standards.
+
+  
+
+## Maintenance
+
+Kaggle hosts the dataset as part of its extensive dataset collection but does not modify or update the content beyond the original specifications.
+The UCI Repository provides a stable location for accessing the dataset, but it does not alter or update the data beyond its original format. 
