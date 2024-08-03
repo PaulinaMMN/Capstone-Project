@@ -2,17 +2,16 @@
 
 ## Motivation
 
-The data set used in this project is: Breast Cancer Wisconsin (Diagnostic) Data Set. The primary purpose of the Breast Cancer Wisconsin (Diagnostic) Data Set is to aid in the development and evaluation of machine learning algorithms 
-that can assist in the diagnosis of breast cancer. It is often used for: classification tasks (Predict whether a tumor is malignant or benign), medical research (Help researchers and healthcare professionals understand patterns and relationships between different features and breast cancer diagnosis), educational purposes (Provide a real-world example for teaching ML), benchmarking ML models. 
+The data set used in this project is the Breast Cancer Wisconsin (Diagnostic) Data Set. The primary purpose of the Breast Cancer Wisconsin (Diagnostic) Data Set is to aid in the development and evaluation of machine learning algorithms 
+that can assist in the diagnosis of breast cancer. It is often used for: classification tasks (to predict whether a tumor is malignant or benign), medical research (to help researchers and healthcare professionals understand patterns and relationships between different features and breast cancer diagnosis), educational purposes (to provide a real-world example for teaching ML), benchmarking ML models. 
+
 The dataset was created as part of the research conducted by Dr. William H. Wolberg and his team at the University of Wisconsin-Madison.
-Research Team: Dr. William H. Wolberg, an oncologist, and his collaborators at the University of Wisconsin-Madison.
-Institution: University of Wisconsin-Madison.
-Original Source: The dataset was compiled using data obtained from digitized images of fine needle aspirate (FNA) of breast tumors, which is a common diagnostic procedure for breast cancer.
-Dataset Publication: The dataset has been available since the early 1990s and has been widely used and referenced in various academic papers and machine learning studies.
+The dataset was compiled using data obtained from digitized images of fine needle aspirate (FNA) of breast tumors, which is a common diagnostic procedure for breast cancer.
+The dataset has been available since the early 1990s and has been widely used and referenced in various academic papers and machine learning studies.
 
 ## Composition
 
-Type of Instances: Each instance in the dataset represents a sample taken from a patient who has undergone a fine needle aspirate (FNA) of a breast tumor. 
+Each instance in the dataset represents a sample taken from a patient who has undergone a fine needle aspirate (FNA) of a breast tumor. 
 These samples are analyzed to derive features that characterize the cell nuclei in the breast mass.
 The dataset consists of numerical measurements related to cell characteristics derived from the digitized images of FNA samples. 
 Specifically, it does not contain direct images or patient documents but instead consists of numeric feature values extracted from medical imaging analysis.
@@ -24,7 +23,7 @@ The dataset does not contain any direct identifiers or personal information that
 ## Collection process
 
 The dataset was acquired through a medical procedure known as fine needle aspiration (FNA), which is commonly used to extract samples from breast tumors.
-Specific details about the sampling strategy aren't explicitly documented, however from the dataset and related documentation we can assume that the dataset was likely compiled using non-probabilistic sampling.
+Specific details about the sampling strategy aren't documented, however from the dataset and related documentation we can assume that the dataset was likely compiled using non-probabilistic sampling.
 The dataset was collected over a period of time during which Dr. William H. Wolberg and his team were conducting research on breast cancer diagnostics at the University of Wisconsin-Madison. 
 
 ## Preprocessing/cleaning/labelling
@@ -35,13 +34,11 @@ Initial preprocessing likely involved identifying and removing outliers to enhan
 The dataset does not contain any missing values. This means any samples with incomplete data were either completed or removed to ensure all entries are fully populated.
 Each instance was labeled as Malignant (M) or Benign (B) based on histological examination and expert pathologist diagnosis. 
 
-
 ## Uses
 
-This data set can be used by students in educational settings to teach students about machine learning algorithms, feature engineering, data preprocessing, and model evaluation.
-The dataset may not cover all demographics equally. It is crucial to understand the population from which the samples were collected. A lack of diverse representation could lead to biased models that may not generalize well to other populations.
-Risk: If a model developed using this dataset is applied in clinical settings without understanding its limitations, it may lead to biased medical decisions. Even though the dataset is anonymized, care must be taken not to re-identify individuals, especially if combined with other datasets.
-
+This dataset is ideal for educational purposes, as it provides a practical example for teaching machine learning algorithms, feature engineering, data preprocessing, and model evaluation.
+The dataset may not represent all demographic groups equally, making it important to understand the sample population's characteristics. Without diverse representation, models developed from this data might be biased and may not generalize effectively to different populations.
+Applying a model developed from this dataset in clinical settings without acknowledging its limitations could result in biased medical decisions.
 
 ## Distribution
 
@@ -51,8 +48,6 @@ The dataset has been also used in numerous academic papers, research projects, a
 
 This dataset is treated as being in the public domain, meaning it is freely available for use in academic research, educational purposes, and non-commercial applications.
 On platforms like Kaggle and UCI, there is typically no explicit licensing attached to this dataset, which implies open access with respect for academic and research standards.
-
-  
 
 ## Maintenance
 
