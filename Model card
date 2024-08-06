@@ -1,0 +1,42 @@
+# Model Card
+
+## Model Description
+
+**Input:** 
+The model takes in multiple features related to breast cancer, such as radius_mean, texture_mean, perimeter_mean, area_mean, etc. from https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset/data
+
+**Output:** 
+The output of the model is a binary classification indicating the diagnosis of breast cancer: malignant (M) or benign (B).
+
+**Model Architecture:** 
+The model is a fully connected neural network (multi-layer perceptron) designed using Keras and TensorFlow. The architecture is optimized using Bayesian optimization with the following features:
+Input layer matching the number of features.
+Multiple hidden layers with ReLU or Tanh activation functions and dropout for regularization.
+An output layer with a sigmoid activation function for binary classification.
+
+## Performance
+
+The model was evaluated using accuracy, sensitivity (recall), and specificity. Here are the performance metrics:
+Accuracy: 0.97 (97%)
+Misclassification Rate: 0.03 (3%)
+Sensitivity (Recall): 0.95 (95%)
+Specificity: 0.98 (98%)
+Confusion matrix: shows the distribution of true positives, true negatives, false positives, and false negatives.
+
+## Limitations
+
+Data Bias: The model might be biased if the dataset is imbalanced between malignant and benign cases.
+Generalization: The model's performance on unseen data might vary, especially if the training data isn't representative of the wider population.
+Feature Sensitivity: The performance can be highly sensitive to the chosen features and preprocessing steps.
+
+## Trade-offs
+
+Complexity vs. Generalization 
+Higher Complexity: Increasing the number of hidden layers and units per layer enhances the model's ability to capture complex patterns, potentially improving accuracy. However, this can lead to overfitting, especially if the dataset is not large or diverse enough, resulting in poor generalization to unseen data.
+
+Training Time vs. Performance
+More complex models with additional layers, units, and parameters require more computational resources and longer training times. This can be a bottleneck if resources are limited or if real-time predictions are required.
+
+Sensitivity vs. Specificity
+Focusing on maximizing sensitivity (recall) can increase the detection of malignant cases but may lead to more false positives, reducing specificity. Conversely, prioritizing specificity might miss some positive cases, potentially resulting in false negatives.
+
